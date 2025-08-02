@@ -1,3 +1,5 @@
+"use client";
+
 import { motion } from "framer-motion";
 
 export function Testimonials() {
@@ -40,7 +42,7 @@ export function Testimonials() {
               className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-lg"
             >
               <p className="text-gray-600 dark:text-gray-300 mb-4 italic">
-                "{testimonial.quote}"
+                &ldquo;{testimonial.quote}&rdquo;
               </p>
               <p className="font-bold">{testimonial.name}</p>
               <p className="text-sm text-gray-500 dark:text-gray-400">

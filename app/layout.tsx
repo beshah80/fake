@@ -5,6 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://beshahashenafi.vercel.app"),
   title: "Beshah Ashenafi - Portfolio",
   description:
     "Beshah Ashenafi's professional portfolio showcasing front-end development skills with React.js, Next.js, and Tailwind CSS.",

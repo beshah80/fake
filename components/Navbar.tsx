@@ -2,6 +2,9 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { motion } from "framer-motion";
+import { useTheme } from "next-themes";
+import { Sun, Moon, X, Menu } from "lucide-react";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);

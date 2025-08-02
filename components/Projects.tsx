@@ -1,7 +1,9 @@
+"use client";
+
 import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
+import { PlaceholderImage } from "./PlaceholderImage";
 
 export function Projects() {
   const projects = [
@@ -100,7 +102,7 @@ export function Projects() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="bg-white dark:bg-gray-900 rounded-lg shadow-lg overflow-hidden"
             >
-              <Image
+              <PlaceholderImage
                 src={project.image}
                 alt={project.title}
                 width={400}

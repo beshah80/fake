@@ -1,6 +1,8 @@
+"use client";
+
 import { motion } from "framer-motion";
 import { Briefcase, Github, Linkedin } from "lucide-react";
-import Image from "next/image";
+import { PlaceholderImage } from "./PlaceholderImage";
 
 export function About() {
   return (
@@ -31,7 +33,7 @@ export function About() {
             transition={{ duration: 0.8 }}
             className="lg:w-1/2"
           >
-            <Image
+            <PlaceholderImage
               src="/images/about-img.jpg"
               alt="Beshah Ashenafi"
               width={500}

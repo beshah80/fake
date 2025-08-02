@@ -1,5 +1,6 @@
+"use client";
+
 import { motion } from "framer-motion";
-import Image from "next/image";
 import Link from "next/link";
 
 export function Hero() {
@@ -46,14 +47,13 @@ export function Hero() {
           transition={{ duration: 0.8 }}
           className="lg:w-1/2"
         >
-          <Image
-            src="/images/hero-img.jpg"
-            alt="Beshah Ashenafi"
-            width={400}
-            height={400}
-            className="rounded-full shadow-lg mx-auto"
-            priority
-          />
+          <div
+            className="w-96 h-96 bg-gray-200 dark:bg-gray-700 rounded-full shadow-lg mx-auto flex items-center justify-center"
+          >
+            <span className="text-gray-500 dark:text-gray-400 text-lg">
+              Beshah Ashenafi
+            </span>
+          </div>
         </motion.div>
       </div>
     </section>

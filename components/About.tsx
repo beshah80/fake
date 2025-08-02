@@ -1,8 +1,8 @@
 "use client";
 
-import { motion } from "framer-motion";
 import { Briefcase, Github, Linkedin } from "lucide-react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export function About() {
   return (
